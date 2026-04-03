@@ -1,0 +1,165 @@
+body{
+   
+    background-image: url("/images/BG.avif");
+    background-size: cover;        /* makes image cover full screen */
+    background-position: center;   /* keeps image centered */
+    background-repeat: no-repeat;  /* prevents repeating */
+                 /* full viewport height */
+    margin: 0;
+  background-attachment:fixed;
+
+}
+.profile{
+    width: 50px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    object-fit:fill;
+}
+#figcap{ 
+    color: white;
+    width: 200px;
+    overflow-wrap:break-word;
+    padding: 0px 0px;
+}
+
+figure{
+    display: block;
+    padding: 0px 0px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    overflow-wrap:break-word;
+}
+.horror,.love,.action,.thriller,.comedy,.adventure,.mystery{
+    text-align: center;
+    padding: 10px 10px;
+    cursor: pointer;
+    margin: 30px 0px;
+}
+
+.horror:hover,.love:hover,.action:hover,.thriller:hover,.comedy:hover,.adventure:hover,.mystery:hover{
+    text-decoration: underline;
+    background-color: rgb(34, 38, 43);
+    padding: 10px 10px;
+    
+}
+h1{
+    color:white;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    
+}
+#u-name{
+    margin: 0px;
+}
+#p1{
+    font-size: 18px;
+    color:white;
+    width: 400px;
+    display: inline-block;
+    margin-top: 0px;
+    
+}
+button{
+    float: right;
+    width: 70px;
+    height: 25px;
+    border-style: solid;
+    margin-left: 5px;  
+    margin-right: 310px;
+        
+}
+button:active{
+    opacity: 0.7;
+}
+input{
+    float: right;
+    width: 230px;
+    height: 20px;
+    
+}
+.container1{
+    margin-left: 300px;
+}
+
+.container{
+    display: flex;
+}
+.sidebar{
+    color: rgb(248, 246, 246);
+    background-color: rgb(0, 0, 0);
+    margin: 60px 20px;
+    border-radius: 10px;
+    position: fixed;
+    transition: box-shadow 0.3s;
+}
+.sidebar:hover{
+    box-shadow: 0px 0px 15px rgba(175, 174, 174, 0.8);
+}
+.header{
+    background-color:rgb(0, 0, 0);
+    padding-bottom: 25px;
+    padding-top: 25px;
+    transition: box-shadow 0.3s;
+    border-radius: 20px;
+    width: 75%;
+}
+.header:hover{
+        box-shadow: 0px 0px 15px rgba(175, 174, 174, 0.8);
+
+}
+.homelink,.telugulink,.tamillink,.hindilink{
+    margin-left: 60px;
+    color:rgb(242, 240, 240);
+    text-decoration-line: none;
+    transition: background-color 0.3s , color 0.3s , text-decoration 0.3s , padding 0.3s;
+}
+.homelink:hover,.telugulink:hover,.tamillink:hover,.hindilink:hover{
+    text-decoration:underline;
+    border-radius: 5px;
+    background-color: rgb(66, 65, 65);
+    padding: 10px 10px;
+}
+.bodycenter{
+   
+    margin-top: 30px;
+    display:inline-block;
+    width: 75%;
+}
+.movie{
+    background-color: rgb(15, 15, 15);
+    margin-left: 5px;
+    margin-right:0px;
+    margin-top: 10px;
+    border: solid rgb(98, 97, 97);
+    cursor: pointer;
+    display:inline-block;
+    text-decoration-style: none;
+}
+.movie:hover{
+    box-shadow: 0px 0px 15px rgb(98, 97, 97 );
+}
+
+.movielink{
+    text-decoration: none;
+}
+
+#movieTitle{
+    color: rgb(252, 251, 251);
+    width: 200px;
+    padding-left: 30px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin: 0px;
+}
+#movieTitle:hover{
+    text-decoration: underline;
+}
+.moviepic1{
+    width: 290px;
+    height: 350px;
+    margin-left: 0px;
+}

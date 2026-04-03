@@ -1,0 +1,145 @@
+body {
+            display: flex;
+            justify-content: right;
+            align-items: center;
+            background-image:url("../images/loginBG.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size:cover;
+        }
+
+        .Div {
+            border: solid aqua;
+            margin-right: 200px;
+            transition: box-shadow 0.5s;
+        }
+
+        .Div:hover {
+            box-shadow: 0px 0px 50px rgb(99, 185, 225);
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 30px;
+            color: aqua;
+        }
+
+        .inputBox {
+            position: relative;
+            margin-top: 40px;
+            margin-left: 50px;
+            margin-right: 80px;
+        }
+
+        .inputBox input {
+            border-radius: 30px;
+            padding: 15px;
+            font-size: 20px;
+            border: solid aqua;
+            color: aqua;
+            outline: none;
+        }
+
+        .inputBox span {
+            position: absolute;
+            left: 20px;
+            top: 15px;
+            color: aqua;
+            transition: 0.3s;
+            background: white;
+            padding: 0 7px;
+        }
+
+        .inputBox input:focus+span,
+        .inputBox input:valid+span {
+            top: -10px;
+            font-size: 15px;
+        }
+
+        .b1 {
+            margin-top: 20px;
+            margin-left: 130px;
+            font-size: 25px;
+            border-radius: 20px;
+            padding: 5px 20px;
+            color: white;
+            border: none;
+           background-color: rgb(141, 245, 245);
+            transition: opacity 0.3s, background-color 0.1s, color 0.1s;
+            cursor: pointer;
+            display: block;
+        }
+
+        .b1:hover {
+            background-color: aqua;
+        }
+
+        .b1:active {
+            opacity: 0.1;
+        }
+        .forgotpassword{
+        
+            margin-left: 50px;
+            color:aqua;
+            margin-top: 30px;
+            display: inline-block;
+             
+        }
+        .forgotpassword:hover{
+            text-decoration: underline;
+            cursor: pointer;
+            
+        }
+        #error{
+            color: red;
+            margin-left: 50px;
+        }
+        .sing{
+                width: 100px;
+                height: 40px;
+                border: none;
+                margin-left: 10px;
+                border-radius: 10px;
+                
+                background-color:  rgb(80, 196, 72);
+                color: white;
+                font-size: 18px;
+                font-weight: bold;
+                transition: box-shadow 0.7s;
+                cursor: pointer;
+        }
+        .sing:hover{
+                box-shadow: 10px 10px 15px rgba( 0,0,0, 0.3);
+            }
+        .sing:active{
+                opacity: 0.8;
+            }
+            
+hr{
+    border: none;
+    height: 1px;
+    margin: 10px 10px;
+    background-color: aqua;
+}
+.email-button{
+    display: block;
+    background-color: rgb(141, 245, 245);
+    border: none;   
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 10px 70px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    
+    transition: box-shadow 0.7s;
+}
+.email-button:hover{
+
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+
+}
+.email-button:active{
+    opacity: 0.5;
+}
