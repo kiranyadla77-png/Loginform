@@ -1,6 +1,6 @@
 body{
    
-    background-image: url("/images/BG.avif");
+    background-image: url("../images/BG.avif");
     background-size: cover;        /* makes image cover full screen */
     background-position: center;   /* keeps image centered */
     background-repeat: no-repeat;  /* prevents repeating */
