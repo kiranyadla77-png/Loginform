@@ -1,7 +1,5 @@
 body{
     display:flex;
- 
-   height: 100vh;
     justify-content: right;
     align-items: center;
     height: 90vh;
@@ -10,10 +8,46 @@ body{
     background-repeat: no-repeat;
     background-size:cover;
 } 
+.user-info{
+    position:relative;
+    margin-left: 50px;
+    margin-right: 200px;
+    margin-top: 30px;
+}
+.user-info input{
+    border: solid 2px rgb(55, 190, 35);
+    color: rgb(55, 190, 35);
+    outline: none;
+    border-radius: 20px;
+    font-size: 18px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.user-info span{
+    position:absolute;
+    left: 25px;
+    font-size: 15px;
+    top: 15px;
+
+    color: rgb(55, 190, 35);
+    transition: 0.3s;
+}
+.user-info input:focus+span,
+.user-info input:valid+span{
+    top: 1px;
+    left: 15px;
+    font-size: 15px;
+}
+
+
 
 .bodycenter{
     margin-right: 100px;
     transition: box-shadow 0.5s;
+   
+    
 }
 .bodycenter:hover{
 
@@ -27,31 +61,13 @@ body{
     color: rgb(55, 190, 35);
 }
 
-.user-button,.pass-button{
-    display:block;
-    margin-left: 100px;
-    margin-right: 200px;
-    font-size: 20px;
-    padding: 10px;
-    border-radius: 20px;
-    color: rgb(55, 190, 35);
-    border: solid 2px rgb(55, 190, 35);
-   outline-color: rgb(55, 190, 35);
-    transition: box-shadow 0.5s , outline-style 0.5s , outline-color 0.5s , outline-width 0.5s;
 
-}
 #error{
     color: red;
-    margin-left: 100px;
+    margin-left: 50px;
     font-size: 12px;
     margin-top: 0px;
     margin-bottom: 0xp;
-}
-
-
-
-input::placeholder{
-    color: rgb(55, 190, 35);
 }
 .login-button{
     
@@ -77,33 +93,10 @@ input::placeholder{
         outline-style: solid;
         outline-color: rgb(55, 190, 35);
 }
-.user-p,.pass-p{
-    
-    margin-left: 100px;
-    font-weight: bold;
-    font-size: 20px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    color: rgb(55, 190, 35);
-}
-.mb-no{
-    color:rgb(55, 190, 35);
-    margin-left: 100px;
-    font-size: 18px;
-    font-weight: bold;
-}
-.mb-button{
-    margin-left: 100px;
-    outline: none;
-    font-size: 20px;
-    padding: 10px;
-    border-radius: 20px;
-    border: solid 2px rgb(55, 190, 35);
-    color: rgb(55, 190, 35);
-}
+
 #phno-text{
     color: red;
-    margin-left: 100px;
+    margin-left: 0px;
     font-size: 12px;
     margin-top: 0px;
     margin-bottom: 0xp;
