@@ -35,7 +35,7 @@ body {
             border-radius: 30px;
             padding: 15px;
             font-size: 20px;
-            border: solid aqua;
+            border: solid 2px aqua;
             color: aqua;
             outline: none;
         }
@@ -55,7 +55,35 @@ body {
             top: -10px;
             font-size: 15px;
         }
-
+        .ph-no{
+            position: relative;
+            margin-top: 40px;
+            margin-left: 50px;
+            margin-right: 80px;                      
+        }
+        .ph-no input{
+            border-radius: 30px;
+            border: solid 2px aqua;
+            outline: none;
+            font-size: 20px;
+            padding: 15px; 
+            color: aqua;          
+        }
+        .ph-no span{
+            position:absolute;
+            left: 25px;
+            top:15px;
+            color:aqua;
+            transition: 0.3s;
+            font-size: 16px;
+            padding: 0 7px;
+            background-color: white;
+        }
+        .ph-no input:focus+span,
+        .ph-no input:valid+span{
+            top:-10;
+            font-size: 16px;                      
+        }
         .b1 {
             margin-top: 20px;
             margin-left: 130px;
@@ -93,6 +121,9 @@ body {
         #error{
             color: red;
             margin-left: 50px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-size: 12px;
         }
         .sing{
                 width: 100px;
@@ -115,11 +146,23 @@ body {
                 opacity: 0.8;
             }
             
+.hr-text{
+    position: relative;
+    text-align: center;
+    margin: 0px 20px;
+    margin-top: 30px;
+}
 hr{
     border: none;
-    height: 1px;
-    margin: 10px 10px;
-    background-color: aqua;
+    height: 2px;
+    background-color: rgb(141, 245, 245);
+}
+.hr-text span{
+    position:absolute;
+    top: -10px;
+    padding: 0px 10px;
+    background-color: white;
+    color: rgb(141, 245, 245);
 }
 .email-button{
     display: block;
@@ -130,6 +173,7 @@ hr{
     font-weight: bold;
     border-radius: 15px;
     padding: 10px 70px;
+    margin-top: 20px;
     margin-left: 70px;
     margin-bottom: 20px;
     
@@ -142,4 +186,9 @@ hr{
 }
 .email-button:active{
     opacity: 0.5;
+}
+#phno-text{
+    color: red;
+    margin: 4px 10px;
+    font-size: 12px;
 }
