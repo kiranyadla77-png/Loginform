@@ -7,16 +7,23 @@
 <body>
     <div class="bodycenter">
         <p class="mainheading"><b>Singup Form</b></p>
-        <p class="user-p">User Name</p>
-        <input class="user-button" id="username" type="text" placeholder="Username" required>
 
-         <p class="pass-p">Password</p>
-        <input class="pass-button"  id="password" type="password" placeholder="Password" required>
+        <div class="user-info">
+        <input  id="username" type="text" required>
+        <span>User Name</span>
+        </div>
+
+         <div class="user-info">
+        <input  id="password" type="password" required>
+        <span>Password</span>
+        </div>
         <p id="error"></p>
 
-        <p class="mb-no">Mobile-no</p>
-        <input class="mb-button" id="phno" type="text" placeholder="Mobile number" required>
+         <div class="user-info">
+        <input  id="phno" type="text" required>
+        <span>Mobile-No</span>
         <p id="phno-text">&#9432 please enter valid mobile number</p>
+        </div>
         <input class="login-button" onclick="validName()" type="submit" value="Login">
         <script src="js/script.js"></script>
     </div>
