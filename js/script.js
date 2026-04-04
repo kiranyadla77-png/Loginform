@@ -8,7 +8,7 @@
 
                 let usernameregex = /[a-zA-Z]/;
                 let passwregex = /[0-9]/;
-                let numberregex = /[0-9]/;
+                let numberregex =  /^\d{10}$/;
                 if( !usernameregex.test(user) && !passwregex.test(passw)){
                   document.getElementById("error").innerText = " ⚠ Invalid username or password";
                 }
