@@ -13,7 +13,7 @@
                   document.getElementById("error").innerText = " ⚠ Invalid username or password";
                 }
                 else if( !numberregex.test(number)){
-                    document.getElementById("phno-text").innerText = "⚠ Invalid Mobile number";
+                    document.getElementById("phno-text").innerText = "⚠ Invalid Mobile number must contain 10 digits";
                 }
                 else if( user === "veerendra" && passw === "12345" ){
                     localStorage.setItem("username", user);
