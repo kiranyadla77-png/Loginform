@@ -151,7 +151,7 @@ input{
     text-decoration: none;
 }
 
-#movieTitle{
+.movieTitle{
     color: rgb(252, 251, 251);
     width: 200px;
     padding-left: 30px;
@@ -160,7 +160,7 @@ input{
     padding-top: 0px;
     margin: 0px;
 }
-#movieTitle:hover{
+.movieTitle:hover{
     text-decoration: underline;
 }
 .moviepic1{
